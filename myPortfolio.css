@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    outline: #000000;
+    outline-style: dashed;
+}
+
+/* first section starts here */
+.first_section{
+    background-image: url("./images/A3.jpeg") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    outline-style: dashed;
+    outline-width: 20px;
+    width: 100%;
+    display: block;
+    height: 620px;
+}
+.childFirstSection{
+    display: flex;
+}
+.firstSectionP1{
+    box-sizing: border-box;
+    width: 200px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 10px;
+   
+        
+
+}
+.firstSectionP1 h1{
+ 
+    color: white;
+    border:2px solid red;
+    box-shadow: 1px 2px 3px 3px yellow;
+    text-align: center;
+    background-color: transparent;
+    font-weight: bolder;
+    
+
+}
+.firstSectionP2{
+    
+    margin: 30px 0px 0px 200px;
+}
+#hom1{
+    color: white;
+}
+#hom1:active{
+color: whitesmoke;
+text-decoration: none;
+
+}
+.justify-content-center a{
+    color: #D3D5CD ;
+
+}
+.justify-content-center a:hover{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.textAboutMe{
+   margin-left: 400px;
+   color: #182FD1 ;
+   font-family: 'Nunito Sans', sans-serif;
+   margin-top: 150px;
+
+
+
+
+}
+.im{
+
+margin-left: 120px;
+}
+/* first section end here */
+
+/*about section starts here */
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+  .aboutSection{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .childAbout1{
+    width: 40%;
+    height: 1000px;
+    margin-top: 80px;
+    z-index: 3;
+    margin-left: 80px;
+  }
+
+  .childAbout2{
+  margin-top: 35px;
+  z-index: -1;
+  width: 400px;
+  margin-left: -10px;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+.childAbout3{
+    margin-top: 150px;
+    margin-left: -150px;
+    width: 33%;
+    height: 500px;
+    overflow: scroll;
+    z-index: 1;
+}
+.childAbout3{
+    display: block;
+}
+.childAbout2 p{
+    color: #939393;
+}
+/* services section starts here */
+
+.services{
+    display: block;
+    margin-top: 200px;
+
+}
+.text{
+    margin-left: 500px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.detail{
+    margin-top: 50px;
+    display: flex;
+}
+.detail_1,.detail_2,.detail_3{
+    width: 30%;
+    box-sizing: border-box;
+    border-style:solid;
+    border-style: dashed;
+    border-radius: 10px;
+    border-top-color: green;
+    border-bottom-color:green;
+    box-shadow: 10px 10px 8px #888888;
+
+    margin-left: 10px;
+    padding: 10px;
+}
+.detail_1{
+    display: block;
+    margin-left: 50px;
+}
+.icon{
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.text1{
+    font-size: 30px;
+    margin-left: 100px;
+    font-weight: bold;
+    margin-top: 30px;
+    
+}
+#tex1{
+    margin-left: 80px;
+}
+#tex{
+    margin-left: 120px;
+}
+.det{
+    padding: 20px;
+    justify-content:center;
+    text-align: justify;
+    
+
+}
+
+
+/* resume section starts here */
+
+.resume{
+    display: flex;
+    margin-top: 200px;
+
+}
+.resume .pic1{
+    width: 400px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+.resume .pic1 img{
+    width: 350px;
+    height: 500px;
+}
+.resumetext{
+    margin-top: 100px;
+    margin-left: 60px;
+
+}
+.resumetext h2{
+   margin-top: 30px;
+}
+.senior{
+  margin-top: 30px;
+  display: flex;
+}
+.senior_2{
+    margin-top: -5px;
+}
+.senior_21{  
+    margin-left: 170px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: green;
+    box-sizing: border-box;
+    width: 150px;
+    background-color: rgb(222, 235, 222);
+}
+.Education{
+   margin-top: 50px;
+   display: block;
+
+}
+#sen{
+    margin-top: 50px;
+}
+
+/* review section start here */
+.hehe{
+    clip-path: polygon(25% 25%, 75% 25%, 75% 75%, 25% 75%, 14.5% 32.25%);
+background-color: #000000;
+margin-left: 20px;
+width: 500px;
+height: fit-content;
+}
+
+.review11{
+    margin-left: 50px;
+    display: flex;
+}
+.review11_1{
+    box-sizing: border-box;
+    border: #dae0ca;
+    border-radius: 3px;
+    padding: 5px;
+    border-radius: 50%;
+    width: 100px;
+    
+    
+
+}
+#demo {
+    background-color: #333;
+    height: 100px;
+    position: relative;
+    width: 300px;
+    color: whitesmoke;
+    padding: 10px;
+    overflow: hidden;
+
+  }
+  #demo:after {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 300;
+    border: 10px solid transparent;
+    border-top-color: #333;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+  }
+  .review1{
+    padding: 50px;
+  }
+
+  /* contact info section starts here */
+.contactMe{
+    display: flex;
+
+}
+
+.firstName{
+    color:#939393;
+    font-size: medium;
+
+}
+.form input{
+    border-style: none;
+    border-bottom-style:solid;
+    margin-top: 50px;
+
+}
+
+/* footer section starts here */
+
+.footer{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.fot1{
+    width: 300px;
+   
+
+}
+.fot1 p{
+    color: #939393;
+}
+#fot11{
+    margin-left: 50px;
+}
+.icomamu{
+    margin-left: 5px;
+}
+
+.love .dropdown .dropdown-toggle{
+  
+}
